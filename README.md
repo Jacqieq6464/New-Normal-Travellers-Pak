@@ -1,0 +1,2 @@
+# New-Normal-Travellers-Pak
+This website is to provide travellers with the latest information about travelling nationally or Internationally in the wake of the Covid-19. On our site Customers will be able to use this app to check: Whether a location is Red Amber or Green (where do we get this info from ) Whether quarantine is required on arrival to the UK Places of interests to include : Where to go  What to do This project is to check whether a location is red amber or green, whether or not quarantine  is required on arrival
