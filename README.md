@@ -25,4 +25,7 @@ Collaborators on this project are:
 # Tutorials Followed:
 
 - Valentin Despa - Postman API Tutorials https://www.youtube.com/watch?v=7E60ZttwIpY&list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ&index=1
+
+# Sources & Third Party Assets:
+- Google Custom Search JSON API: https://developers.google.com/custom-search/v1/overview
 - 
