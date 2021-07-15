@@ -18,8 +18,8 @@ SO I CAN plan in advance what I might do when I go on holiday.
 ## Credits:
 
 Collaborators on this project are:
-- Clary Mawangi: GitHub Profile:
-- Carol Gordon: GitHub Profile:
+- Clary Mawangi: GitHub Profile:https://github.com/ClaryAshton
+- Carol Gordon: GitHub Profile: https://github.com/Cgordon-bee
 - Jacqie Williamson: GitHub Profile: https://github.com/Jacqieq6464
 
 # Tutorials Followed:
