@@ -5,11 +5,13 @@ This website is to provide travellers with the latest information about travelli
 
 As a CUSTOMER who is considering travelling as the Covid 19 restrictions are being eased
 I WANT TO be able to check the status of destinations 
-SO I CAN make an informed choice about where I could go
+SO I CAN make an informed choice about where I could go.
+
 I WANT TO check whether quarantine restrictions are required when I return to the UK
-SO I CAN decide whether it is feasible to go to a given destination
+SO I CAN decide whether it is feasible to go to a given destination.
+
 I WANT TO identify places of to go and things to do
-SO I CAN plan in advance what I might do when I go on holiday
+SO I CAN plan in advance what I might do when I go on holiday.
 
 ## Acceptance Criteria:
 
