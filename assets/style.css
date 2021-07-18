@@ -1,7 +1,9 @@
 #nav-links{
 text-align: end;
 border-right: 100px;
-padding: 40px 20px 20px 20px;
+padding: 0px 20px 20px 20px;
+background-color: rgb(78, 145, 245);
+color:white;
 
 
 
@@ -14,5 +16,8 @@ text-align:left;
 #welcomeMessage {
 padding-left: 50px;
 padding-top: 20px;
-s
+
+}
+.navBar-menu {
+color: white;
 }
