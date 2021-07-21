@@ -1,23 +1,25 @@
-#nav-links{
-text-align: end;
-border-right: 100px;
-padding: 0px 20px 20px 20px;
-background-color: rgb(78, 145, 245);
-color:white;
+
+body{
+    padding:0mm;
+    margin:0;
+    
+    
+    }
+    
+    
+    .title-is-size-1 {
+        color: gold;
+        font-weight: bolder;
+        font-size:50px;
+        margin-bottom: 0mm;
+    
+    }
 
 
 
-}
-#mainContainer {
-text-align:left;
 
-}
 
-#welcomeMessage {
-padding-left: 50px;
-padding-top: 20px;
 
-}
-.navBar-menu {
-color: white;
-}
+
+
+
