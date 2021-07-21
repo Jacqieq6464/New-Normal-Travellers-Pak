@@ -10,55 +10,270 @@
     
 </head>
 <body>
-
-  <!-- Added a simple hamburger style key for mobile devices-->      
-  <div class="navbarBrand">
-
-    <nav class="navbar">
-    <a class="nav-links">
-
-      <img src="images/airplane-travelling-around-earth.png" alt="site logo" style="max-height: 100px;" class="py-4 px-2">
-    </a>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+  <a>
+        <img src="../../Documents/GitHub/New-Normal-Travellers-Pak/images/airplane-travelling-around-earth.png" width="112" height="28">
+      
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>Sign up</strong>
+            </a>
+            <form action="/signup" method="post" id="signup" class="button">
+              <strong>Log in</strong></form>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </nav>
+
+<!--cover-->
+<nav class="navbar">
+    <div class="container">
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary">Github</a>
+              <a class="button is-link">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="hero  is-fullheight-with-navbar" style="background-image: url(/images/project\ 1\ background.jpg); background-size: cover; background-blend-mode:luminosity">
+
+    <div class="hero-body">
+      <h1 class="title-is-size-1 p">The New Normal Traveller's Pak</h1>
+    </div>
+  </section>
+
+  <!-- The search input box-->
+<section>
+      <div class="container">
+        <h1 class="title py-6">Country Destinations</h1>
+        <h2 class="subtitle">Search for a destination of your choice</h2>
+        <div class="field has-addons">
+        <div class="control">
+          <input class="input" type="text" placeholder="Find a destination">
+        </div>
+        <div class="control">
+          <a class="button is-info">
+            Search
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+</section>
+<section>
+<div class="welcome message container mt-6">Welcome to our Site
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque fuga harum modi esse amet debitis et numquam quibusdam nostrum. Beatae alias, minus quae nesciunt eos cupiditate placeat soluta neque quisquam assumenda laborum corrupti officia explicabo provident quasi asperiores tempora rem facere amet odit debitis repellendus! 
+  Autem quam harum soluta!ipsum dolor sit amet consectetur, adipisicing elit. In provident eius esse? Voluptatibus aspernatur incidunt, quisquam quas, quis totam exercitationem reiciendis labore saepe possimus ullam tempora corporis minima mollitia delectus.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo temporibus libero ipsam dolor? Quos, doloremque soluta quis velit, quasi repudiandae nam maxime a non repellendus rem? Libero recusandae, alias quibusdam a veniam laudantium, vero quidem sint fugit, soluta natus eaque voluptate dolorum laboriosam ipsa nihil doloremque in! Quasi id facilis explicabo ut modi! 
+  Error reiciendis impedit laborum illo dicta quo obcaecati sequi, quia ex, facilis at eius! Ipsam voluptatem accusantium, id quo deserunt possimus cumque.
+</p>
+
 </div>
- <!-- Added elements for our Navbar -->
-  <div class="navBar-menu" id="nav-links">
-    <div class="narBar-end">
-      <a class="navBar-item">About us</a>
-      <a class="navBar-item">Contact</a>
-      <a class="navBar-item">Register</a>
+
+</section>
+
+<!--Main-->
+
+<section class="section is-large">
+    <h1 class="title">Places of Interest</h1>
+    <h2 class="subtitle">
+      A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+    </h2>
+    <div class="columns">
+        <div class="column">
+          <div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img src="/images/photo-1577216185598-58fadb510fd1.webp" alt="Placeholder image">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img src="/images/photo-1605153322277-dd0d7f608b4d.webp" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">Fun Filled Holiday</p>
+        <p class="subtitle is-6">Prices start from £398pp</p>
+      </div>
     </div>
 
-     <!-- Added details  a main container for to wrap all content items-->
-    <div id="mainContainer">
-    <section>
-      <h1 id="welcomeMessage">Welcome To New-Normal Traveller's Pak<h1>
-        <section class=section>
-      <p> The site is designed to keep you safe whilst exploring the world of fun as the world emerges from Covid-19</p>  
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit delectus perferendis velit alias saepe architecto culpa ea ratione totam accusantium officiis sequi incidunt, esse explicabo similique molestiae itaque quibusdam atque!
-    </p>
-    </section>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+      <a href="#">#css</a> <a href="#">#responsive</a>
+      <br>
+      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+    </div>
   </div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer> </footer>
-
 </div>
-    
+        </div>
+        <div class="column">
+          <div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img src="/images/photo-1557899775-24a0957d3895.webp" alt="Placeholder image">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img src="/images/photo-1605153322277-dd0d7f608b4d.webp" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">Sun, Sea & Sands</p>
+        <p class="subtitle is-6"> Prices start from £495.99 pp</p>
+      </div>
+    </div>
+
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+      <a href="#">#css</a> <a href="#">#responsive</a>
+      <br>
+      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="column">
+          <div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img src="/images/photo-1605153322277-dd0d7f608b4d.webp" alt="Placeholder image">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img src="/images/01FD377B-C1AC-4901-A729-DFE8AF48422E_1_105_c.jpeg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">Historical Locations</p>
+        <p class="subtitle is-6">From £789pp</p>
+      </div>
+    </div>
+
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+      <a href="#">#css</a> <a href="#">#responsive</a>
+      <br>
+      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="column">
+          <div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img src="/images/01FD377B-C1AC-4901-A729-DFE8AF48422E_1_105_c.jpeg" alt="Placeholder image">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">It's not always about the Sun!
+        </p>
+        <p class="subtitle is-6">Prices start from £699pp</p>
+      </div>
+    </div>
+
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+      <a href="#">#css</a> <a href="#">#responsive</a>
+      <br>
+      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+  </section>
+
+<!--footer-->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>CCJ Enterprises</strong> by <a href="https://jgthms.com">CCJ</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/1ff9058995.js" crossorigin="anonymous"></script>
+<script src="js.js"></script>
+</body>
+</html>
+
+
 </body>
 </html>
