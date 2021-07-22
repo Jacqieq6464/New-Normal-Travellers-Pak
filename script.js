@@ -1,18 +1,22 @@
 // 
 
 
-  var signUpButton =document.getElementById("signUp");
+  
   var searchBar = document.getElementById ("searchBar");
-  var login = document.getElementById ("login");
+  
 
   
+  document.addEventListener('DOMContentLoaded', (event) => {e.target.value
   
-  signUp.addEventlistener ("click", e => {
-
-  }, {
-    // I want to use the event capturing element to eliminate any conflict in bubbling
-  capture: true
   })
+  
+var city = e.target.value
+
+    console.log (e)
+
+    // We want to use the event capturing element to eliminate any conflict in bubbling
+  capture: true
+
 
   
 
