@@ -8,14 +8,18 @@ body{
     
     
     .title-is-size-1 {
-        color: gold;
+        color: #ecd44b;
         font-weight: bolder;
         font-size:50px;
         margin-bottom: 0mm;
     
     }
 
+#contentBox {
+box-shadow: chartreuse;
 
+
+}
 
 
 
