@@ -7,6 +7,10 @@
 
   // how do we make the connection between the events of the search bar?
   document.addEventListener('DOMContentLoaded', (event) => {e.target.value
+    searchBar.addEventListener("click", (event) =>{
+
+
+    });
   
   var city = e.target.value
 
