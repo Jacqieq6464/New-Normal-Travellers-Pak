@@ -8,18 +8,38 @@ body{
     
     
     .title-is-size-1 {
-        color: #ecd44b;
-        font-weight: bolder;
+        color:yellow;
+        font-weight:bolder;
         font-size:50px;
         margin-bottom: 0mm;
+        padding-top: 0mm;
     
     }
 
-#contentBox {
-box-shadow: chartreuse;
-
+#head {
+background-color: rgb(64, 133, 224)(64, 133, 224);
 
 }
+.container{
+background-color: rgb(64, 133, 224)(64, 133, 224);
+
+}
+
+#logo {
+background-color: rgb(64, 133, 224)(64, 133, 224);
+
+}
+
+#navBanner {
+background-color:rgb(64, 133, 224);
+
+}
+#yellow {
+
+padding:0mm;
+margin-top: 0mm;
+}
+
 
 
 
